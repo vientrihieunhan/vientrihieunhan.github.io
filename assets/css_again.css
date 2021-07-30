@@ -139,6 +139,7 @@ html{
         left: 0;
         color: #fff;
         text-align: center;
+        text-shadow: 0 0 1px #000;
     }
     #slider .title-slider{
         font-size: 24px;
@@ -147,6 +148,7 @@ html{
     #slider .description-slider{
         font-size: 15px;
         padding-top: 15px;
+        text-transform: capitalize;
     }
      
 #content{
@@ -433,13 +435,13 @@ html{
     }
 
 
-/* Responsive css PC */
+/* Responsive Css PC */
 @media screen and (min-width: 64em) {
     .menu-icon{
         display: none;
     }
 }
-/* Responsive css mobile and tablet */
+/* Responsive Css Mobile and Tablet */
 
 @media screen and (max-width: 63.9375em) {
     
@@ -517,7 +519,18 @@ html{
     .search-box{
         display: none;
     }
-    
+    #slider .slider-box{
+        bottom: 15px;
+    }
+    #slider .title-slider{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #slider .description-slider{
+        text-transform: capitalize;
+        font-size: 8px;
+        padding-top: 5px;
+    }
     #content .content-box{
         width: 100%;
     }
