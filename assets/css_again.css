@@ -142,11 +142,11 @@ html{
         text-shadow: 0 0 1px #000;
     }
     #slider .title-slider{
-        font-size: 24px;
+        font-size: 50px;
         font-weight: 500;
     }
     #slider .description-slider{
-        font-size: 15px;
+        font-size: 20px;
         padding-top: 15px;
         text-transform: capitalize;
     }
@@ -467,6 +467,18 @@ html{
     .menu-icon{
         display: none;
     }
+    #slider .slider-box{
+        bottom: 25px;
+    }
+    #slider .title-slider{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    #slider .description-slider{
+        text-transform: capitalize;
+        font-size: 15px;
+        padding-top: 5px;
+    }
     
 }
 /* Responsive Css Moblie */
@@ -520,7 +532,7 @@ html{
         display: none;
     }
     #slider .slider-box{
-        bottom: 15px;
+        bottom: 10px;
     }
     #slider .title-slider{
         font-size: 12px;
